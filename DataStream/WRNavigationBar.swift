@@ -183,10 +183,7 @@ extension UINavigationBar:WRAwakeProtocol
         
         var titleColor:UIColor?
         for attribute in originTitleTextAttributes {
-            if attribute.key == NSAttributedStringKey.foregroundColor {
-                titleColor = attribute.value as? UIColor
-                break
-            }
+            
         }
         
         guard let originTitleColor = titleColor else {
@@ -194,9 +191,6 @@ extension UINavigationBar:WRAwakeProtocol
             return
         }
 
-        if attributes[NSAttributedStringKey.foregroundColor.rawValue] == nil {
-            attributes.updateValue(originTitleColor, forKey: NSAttributedStringKey.foregroundColor.rawValue)
-        }
         wr_setTitleTextAttributes(attributes)
     }
 }
@@ -237,12 +231,12 @@ extension UINavigationController: WRFatherAwakeProtocol
     fileprivate func setNeedsNavigationBarUpdate(titleColor: UIColor)
     {
         guard let titleTextAttributes = navigationBar.titleTextAttributes else {
-            navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:titleColor]
+            
             return
         }
         
         var newTitleTextAttributes = titleTextAttributes
-        newTitleTextAttributes.updateValue(titleColor, forKey: NSAttributedStringKey.foregroundColor)
+        
         navigationBar.titleTextAttributes = newTitleTextAttributes
     }
     
@@ -646,8 +640,7 @@ extension UIViewController: WRAwakeProtocol
             objc_setAssociatedObject(self, &AssociatedKeys.navBarTitleColor, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
             
             if customNavBar.isKind(of: UINavigationBar.self) {
-//                let navBar = customNavBar as! UINavigationBar
-//                navBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:newValue]
+
             }
             else
             {
