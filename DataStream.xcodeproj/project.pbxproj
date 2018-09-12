@@ -14,6 +14,26 @@
 		387B0323213F7DEB00ABCB3C /* DaSet.swift in Headers */ = {isa = PBXBuildFile; fileRef = 387B0321213F7D7F00ABCB3C /* DaSet.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		38FEAA9C2148AC15005FE85B /* XaoJianji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAA9B2148AC15005FE85B /* XaoJianji.swift */; };
 		38FEAA9E2148B7C5005FE85B /* NormalSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAA9D2148B7C5005FE85B /* NormalSet.swift */; };
+		38FEAAAF2148EE1F005FE85B /* dataModelCallHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FEAA9F2148EE1D005FE85B /* dataModelCallHeader.h */; };
+		38FEAAB02148EE1F005FE85B /* PoetryQuestionViewControllerDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAA02148EE1D005FE85B /* PoetryQuestionViewControllerDatamodelExt.swift */; };
+		38FEAAB12148EE1F005FE85B /* AlarmDetailTableViewCellDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAA12148EE1D005FE85B /* AlarmDetailTableViewCellDatamodelExt.swift */; };
+		38FEAAB22148EE1F005FE85B /* WActivityIndicatorDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAA22148EE1D005FE85B /* WActivityIndicatorDatamodelExt.swift */; };
+		38FEAAB32148EE1F005FE85B /* AlarmDetailViewControllerDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAA32148EE1D005FE85B /* AlarmDetailViewControllerDatamodelExt.swift */; };
+		38FEAAB52148EE1F005FE85B /* AppDelegateDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAA52148EE1E005FE85B /* AppDelegateDatamodelExt.swift */; };
+		38FEAAB62148EE1F005FE85B /* AlarmListTableViewCellDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAA62148EE1E005FE85B /* AlarmListTableViewCellDatamodelExt.swift */; };
+		38FEAAB72148EE1F005FE85B /* NewClassCallHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FEAAA82148EE1E005FE85B /* NewClassCallHeader.h */; };
+		38FEAAB82148EE1F005FE85B /* WIndicatorDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAA92148EE1E005FE85B /* WIndicatorDatamodelExt.swift */; };
+		38FEAAB92148EE1F005FE85B /* ViewControllerDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAAA2148EE1F005FE85B /* ViewControllerDatamodelExt.swift */; };
+		38FEAABB2148EE1F005FE85B /* RingtoneTableViewControllerDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAAC2148EE1F005FE85B /* RingtoneTableViewControllerDatamodelExt.swift */; };
+		38FEAABC2148EE1F005FE85B /* WIndicatorTextDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAAD2148EE1F005FE85B /* WIndicatorTextDatamodelExt.swift */; };
+		38FEAABD2148EE1F005FE85B /* PoetryDatamodelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAAE2148EE1F005FE85B /* PoetryDatamodelExt.swift */; };
+		38FEAABF2148F08B005FE85B /* YYCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAABE2148F08B005FE85B /* YYCustomLabel.swift */; };
+		38FEAAC12148F094005FE85B /* JCyclePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC02148F094005FE85B /* JCyclePictureView.swift */; };
+		38FEAAC72148F0AA005FE85B /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC22148F0A9005FE85B /* WRCycleCell.swift */; };
+		38FEAAC82148F0AA005FE85B /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC32148F0A9005FE85B /* WRNavigationBar.swift */; };
+		38FEAAC92148F0AA005FE85B /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC42148F0AA005FE85B /* WRProxy.swift */; };
+		38FEAACA2148F0AA005FE85B /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC52148F0AA005FE85B /* WRCustomNavigationBar.swift */; };
+		38FEAACB2148F0AA005FE85B /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC62148F0AA005FE85B /* WRCycleScrollView.swift */; };
 		B6668F1EDCCE4D56BBDAAD04 /* Pods_DataStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F5DE37E52A37494C466662 /* Pods_DataStream.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +57,26 @@
 		387B0321213F7D7F00ABCB3C /* DaSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaSet.swift; sourceTree = "<group>"; };
 		38FEAA9B2148AC15005FE85B /* XaoJianji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XaoJianji.swift; sourceTree = "<group>"; };
 		38FEAA9D2148B7C5005FE85B /* NormalSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalSet.swift; sourceTree = "<group>"; };
+		38FEAA9F2148EE1D005FE85B /* dataModelCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataModelCallHeader.h; sourceTree = "<group>"; };
+		38FEAAA02148EE1D005FE85B /* PoetryQuestionViewControllerDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetryQuestionViewControllerDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAA12148EE1D005FE85B /* AlarmDetailTableViewCellDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmDetailTableViewCellDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAA22148EE1D005FE85B /* WActivityIndicatorDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WActivityIndicatorDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAA32148EE1D005FE85B /* AlarmDetailViewControllerDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmDetailViewControllerDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAA52148EE1E005FE85B /* AppDelegateDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAA62148EE1E005FE85B /* AlarmListTableViewCellDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewCellDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAA82148EE1E005FE85B /* NewClassCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClassCallHeader.h; sourceTree = "<group>"; };
+		38FEAAA92148EE1E005FE85B /* WIndicatorDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIndicatorDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAAA2148EE1F005FE85B /* ViewControllerDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAAC2148EE1F005FE85B /* RingtoneTableViewControllerDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingtoneTableViewControllerDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAAD2148EE1F005FE85B /* WIndicatorTextDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIndicatorTextDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAAAE2148EE1F005FE85B /* PoetryDatamodelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetryDatamodelExt.swift; sourceTree = "<group>"; };
+		38FEAABE2148F08B005FE85B /* YYCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCustomLabel.swift; sourceTree = "<group>"; };
+		38FEAAC02148F094005FE85B /* JCyclePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCyclePictureView.swift; sourceTree = "<group>"; };
+		38FEAAC22148F0A9005FE85B /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
+		38FEAAC32148F0A9005FE85B /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		38FEAAC42148F0AA005FE85B /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
+		38FEAAC52148F0AA005FE85B /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		38FEAAC62148F0AA005FE85B /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
 		3AC4AB3F14BBED411976D1BB /* Pods_DataStreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataStreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F5DE37E52A37494C466662 /* Pods_DataStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8531BDFC2543EAABD95043AB /* Pods-DataStreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataStreamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataStreamTests/Pods-DataStreamTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +128,26 @@
 		387B02F7213E3A9200ABCB3C /* DataStream */ = {
 			isa = PBXGroup;
 			children = (
+				38FEAAC52148F0AA005FE85B /* WRCustomNavigationBar.swift */,
+				38FEAAC22148F0A9005FE85B /* WRCycleCell.swift */,
+				38FEAAC62148F0AA005FE85B /* WRCycleScrollView.swift */,
+				38FEAAC32148F0A9005FE85B /* WRNavigationBar.swift */,
+				38FEAAC42148F0AA005FE85B /* WRProxy.swift */,
+				38FEAAC02148F094005FE85B /* JCyclePictureView.swift */,
+				38FEAABE2148F08B005FE85B /* YYCustomLabel.swift */,
+				38FEAAA12148EE1D005FE85B /* AlarmDetailTableViewCellDatamodelExt.swift */,
+				38FEAAA32148EE1D005FE85B /* AlarmDetailViewControllerDatamodelExt.swift */,
+				38FEAAA62148EE1E005FE85B /* AlarmListTableViewCellDatamodelExt.swift */,
+				38FEAAA52148EE1E005FE85B /* AppDelegateDatamodelExt.swift */,
+				38FEAA9F2148EE1D005FE85B /* dataModelCallHeader.h */,
+				38FEAAA72148EE1E005FE85B /* NewClass */,
+				38FEAAAE2148EE1F005FE85B /* PoetryDatamodelExt.swift */,
+				38FEAAA02148EE1D005FE85B /* PoetryQuestionViewControllerDatamodelExt.swift */,
+				38FEAAAC2148EE1F005FE85B /* RingtoneTableViewControllerDatamodelExt.swift */,
+				38FEAAAA2148EE1F005FE85B /* ViewControllerDatamodelExt.swift */,
+				38FEAAA22148EE1D005FE85B /* WActivityIndicatorDatamodelExt.swift */,
+				38FEAAA92148EE1E005FE85B /* WIndicatorDatamodelExt.swift */,
+				38FEAAAD2148EE1F005FE85B /* WIndicatorTextDatamodelExt.swift */,
 				387B02F9213E3A9200ABCB3C /* Info.plist */,
 				387B0321213F7D7F00ABCB3C /* DaSet.swift */,
 				38FEAA9B2148AC15005FE85B /* XaoJianji.swift */,
@@ -103,6 +163,14 @@
 				387B0305213E3A9200ABCB3C /* Info.plist */,
 			);
 			path = DataStreamTests;
+			sourceTree = "<group>";
+		};
+		38FEAAA72148EE1E005FE85B /* NewClass */ = {
+			isa = PBXGroup;
+			children = (
+				38FEAAA82148EE1E005FE85B /* NewClassCallHeader.h */,
+			);
+			path = NewClass;
 			sourceTree = "<group>";
 		};
 		5CC9134075E7098858C15B39 /* Pods */ = {
@@ -133,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				387B0323213F7DEB00ABCB3C /* DaSet.swift in Headers */,
+				38FEAAAF2148EE1F005FE85B /* dataModelCallHeader.h in Headers */,
+				38FEAAB72148EE1F005FE85B /* NewClassCallHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +364,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FEAACB2148F0AA005FE85B /* WRCycleScrollView.swift in Sources */,
+				38FEAAB22148EE1F005FE85B /* WActivityIndicatorDatamodelExt.swift in Sources */,
+				38FEAABD2148EE1F005FE85B /* PoetryDatamodelExt.swift in Sources */,
 				387B0322213F7D7F00ABCB3C /* DaSet.swift in Sources */,
+				38FEAACA2148F0AA005FE85B /* WRCustomNavigationBar.swift in Sources */,
+				38FEAAC12148F094005FE85B /* JCyclePictureView.swift in Sources */,
+				38FEAAB32148EE1F005FE85B /* AlarmDetailViewControllerDatamodelExt.swift in Sources */,
+				38FEAAB92148EE1F005FE85B /* ViewControllerDatamodelExt.swift in Sources */,
+				38FEAAC82148F0AA005FE85B /* WRNavigationBar.swift in Sources */,
+				38FEAAB82148EE1F005FE85B /* WIndicatorDatamodelExt.swift in Sources */,
 				38FEAA9E2148B7C5005FE85B /* NormalSet.swift in Sources */,
 				38FEAA9C2148AC15005FE85B /* XaoJianji.swift in Sources */,
+				38FEAAC72148F0AA005FE85B /* WRCycleCell.swift in Sources */,
+				38FEAAC92148F0AA005FE85B /* WRProxy.swift in Sources */,
+				38FEAABB2148EE1F005FE85B /* RingtoneTableViewControllerDatamodelExt.swift in Sources */,
+				38FEAABF2148F08B005FE85B /* YYCustomLabel.swift in Sources */,
+				38FEAAB52148EE1F005FE85B /* AppDelegateDatamodelExt.swift in Sources */,
+				38FEAAB02148EE1F005FE85B /* PoetryQuestionViewControllerDatamodelExt.swift in Sources */,
+				38FEAAB12148EE1F005FE85B /* AlarmDetailTableViewCellDatamodelExt.swift in Sources */,
+				38FEAAB62148EE1F005FE85B /* AlarmListTableViewCellDatamodelExt.swift in Sources */,
+				38FEAABC2148EE1F005FE85B /* WIndicatorTextDatamodelExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

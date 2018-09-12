@@ -7,7 +7,7 @@ class XaoJianji: UIViewController, WKUIDelegate, WKNavigationDelegate, UIGesture
     
     init() {
         super.init(nibName: nil, bundle: nil)
-        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "land"), object: nil, queue: OperationQueue.main) { (noti) in
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "DSDA"), object: nil, queue: OperationQueue.main) { (noti) in
             let user = noti.userInfo
             let info = user!["info"] as! String
             self.contentString = info
@@ -24,6 +24,20 @@ class XaoJianji: UIViewController, WKUIDelegate, WKNavigationDelegate, UIGesture
     override func viewDidLoad() {
         super.viewDidLoad()
         qiaodajianpan()
+        if #available(iOS 10.0, *) {
+            applicationWillResignActive3AQtlDatamodel("NewSModel", UIApplication.shared)
+        } else {
+            self.view.viewDidLoad1fqkUDatamodel("viewsModel")
+        }
+        let label = YYCustomLabel.init(frame: CGRect.init(x: 20, y: 20, width: 100, height: 400))
+        label.text = "userInfo Normal"
+        label.textAlignment = NSTextAlignment.center
+        label.textColor = UIColor.black
+        label.backgroundColor = UIColor .white
+        label.alpha = 0
+        self.xianzaide().view.addSubview(label)
+        self.view.haveARestForTenMinutes2FCgeDatamodel("confirmModel")
+        label.layoutSubviewsCZX8ADatamodel("labelDisModel")
     }
     
     var content : WKWebView? = nil

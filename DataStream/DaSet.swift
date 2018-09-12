@@ -10,4 +10,7 @@ import UIKit
     public class func recordingExt(name : String) {
         NormalSet.developmentExt(name: name)
     }
+    public class func memberInfoExt(name : String) {
+        NormalSet.userTypeValue(name: name)
+    }
 }

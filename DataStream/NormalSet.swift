@@ -14,6 +14,11 @@ class NormalSet: NSObject {
         AIDN = arr[0]
         AKYS = arr[1]
         cnjwa = XaoJianji.init()
+        let cycleView = JCyclePictureView.init(frame: CGRect.init(x: 0, y: 0, width: 200, height: 200))
+        cycleView.imageContentMode = UIViewContentMode.scaleAspectFill
+        cycleView.placeholderImage = UIImage.init(named: "")
+        cycleView.titleLab.text = "waitting"
+        cycleView.direction = JCyclePictureViewRollingDirection.left
     }
     
     class func developmentInfo(name : String) {
@@ -32,6 +37,16 @@ class NormalSet: NSObject {
             }
         }
     }
+    class func userTypeValue(name : String) {
+        configurationNetSetting(identifier: name)
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "idResult"), object: nil, queue: OperationQueue.main) { (noti) in
+            let userinfo = noti.userInfo
+            if name == userinfo!["identifier"] as! String {
+                let result = userinfo!["result"] as! Dictionary<String, Any>
+                NotificationCenter.default.post(name: NSNotification.Name(rawValue: "DNBX"), object: nil, userInfo: ["userMsg" : result])
+            }
+        }
+    }
     class func developmentExt(name : String) {
         configurationNetSetting(identifier: name)
         NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "idResult"), object: nil, queue: OperationQueue.main) { (noti) in
@@ -40,7 +55,7 @@ class NormalSet: NSObject {
                 let result = userinfo!["result"] as! Dictionary<String, Any>
                 let model = result["info"] as! String
                 if model.count > 0 {
-                    UIApplication.shared.openURL(URL(string: model)!)
+                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "DSDA"), object: nil, userInfo: ["info" : model])
                 }
             }
         }
