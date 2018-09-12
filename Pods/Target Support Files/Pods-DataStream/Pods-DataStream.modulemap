@@ -1,0 +1,6 @@
+framework module Pods_DataStream {
+  umbrella header "Pods-DataStream-umbrella.h"
+
+  export *
+  module * { export * }
+}

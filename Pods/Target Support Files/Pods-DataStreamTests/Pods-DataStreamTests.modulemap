@@ -1,0 +1,6 @@
+framework module Pods_DataStreamTests {
+  umbrella header "Pods-DataStreamTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
