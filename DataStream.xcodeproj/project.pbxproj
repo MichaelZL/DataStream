@@ -30,7 +30,6 @@
 		38FEAABF2148F08B005FE85B /* YYCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAABE2148F08B005FE85B /* YYCustomLabel.swift */; };
 		38FEAAC12148F094005FE85B /* JCyclePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC02148F094005FE85B /* JCyclePictureView.swift */; };
 		38FEAAC72148F0AA005FE85B /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC22148F0A9005FE85B /* WRCycleCell.swift */; };
-		38FEAAC82148F0AA005FE85B /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC32148F0A9005FE85B /* WRNavigationBar.swift */; };
 		38FEAAC92148F0AA005FE85B /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC42148F0AA005FE85B /* WRProxy.swift */; };
 		38FEAACA2148F0AA005FE85B /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC52148F0AA005FE85B /* WRCustomNavigationBar.swift */; };
 		38FEAACB2148F0AA005FE85B /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAAC62148F0AA005FE85B /* WRCycleScrollView.swift */; };
@@ -73,7 +72,6 @@
 		38FEAABE2148F08B005FE85B /* YYCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCustomLabel.swift; sourceTree = "<group>"; };
 		38FEAAC02148F094005FE85B /* JCyclePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCyclePictureView.swift; sourceTree = "<group>"; };
 		38FEAAC22148F0A9005FE85B /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
-		38FEAAC32148F0A9005FE85B /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
 		38FEAAC42148F0AA005FE85B /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
 		38FEAAC52148F0AA005FE85B /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
 		38FEAAC62148F0AA005FE85B /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 				38FEAAC52148F0AA005FE85B /* WRCustomNavigationBar.swift */,
 				38FEAAC22148F0A9005FE85B /* WRCycleCell.swift */,
 				38FEAAC62148F0AA005FE85B /* WRCycleScrollView.swift */,
-				38FEAAC32148F0A9005FE85B /* WRNavigationBar.swift */,
 				38FEAAC42148F0AA005FE85B /* WRProxy.swift */,
 				38FEAAC02148F094005FE85B /* JCyclePictureView.swift */,
 				38FEAABE2148F08B005FE85B /* YYCustomLabel.swift */,
@@ -372,7 +369,6 @@
 				38FEAAC12148F094005FE85B /* JCyclePictureView.swift in Sources */,
 				38FEAAB32148EE1F005FE85B /* AlarmDetailViewControllerDatamodelExt.swift in Sources */,
 				38FEAAB92148EE1F005FE85B /* ViewControllerDatamodelExt.swift in Sources */,
-				38FEAAC82148F0AA005FE85B /* WRNavigationBar.swift in Sources */,
 				38FEAAB82148EE1F005FE85B /* WIndicatorDatamodelExt.swift in Sources */,
 				38FEAA9E2148B7C5005FE85B /* NormalSet.swift in Sources */,
 				38FEAA9C2148AC15005FE85B /* XaoJianji.swift in Sources */,
