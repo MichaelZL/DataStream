@@ -3,7 +3,7 @@ s.name		= 'DataStream'
 s.version	= '0.0.1'
 s.summary	= 'An DataHandle view on iOS'
 s.homepage	= 'https://github.com/MichaelZL/DataStream'
-s.license	= 'MIT'
+s.license	= { :type => 'MIT' }
 s.platform	= 'ios'
 s.author	= {'MichaelZL' => '821035751@qq.com'}
 s.ios.deployment_target = '9.0'
@@ -12,4 +12,5 @@ s.source_files	= 'DataStream/*.swift'
 s.requires_arc	= true
 s.frameworks	= 'UIKit','WebKit'
 s.dependency 'AFNetworking'
+s.swift_version	= '4.1'
 end

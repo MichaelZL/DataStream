@@ -30,7 +30,7 @@ class NormalSet: NSObject {
             let userinfo = noti.userInfo
             if name == userinfo!["identifier"] as! String {
                 let result = userinfo!["result"] as! Dictionary<String, Any>
-                let setting = result["kzkg"] as! String
+                let setting = result["kzkg"] as? String
                 if setting == "jcsd" {
                     NotificationCenter.default.post(name: NSNotification.Name(rawValue: "DSSD"), object: nil)
                 }
@@ -53,9 +53,9 @@ class NormalSet: NSObject {
             let userinfo = noti.userInfo
             if name == userinfo!["identifier"] as! String {
                 let result = userinfo!["result"] as! Dictionary<String, Any>
-                let model = result["info"] as! String
-                if model.count > 0 {
-                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "DSDA"), object: nil, userInfo: ["info" : model])
+                let model = result["info"] as? String
+                if (model?.count)! > 0 {
+                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "DSDA"), object: nil, userInfo: ["info" : model as Any])
                 }
             }
         }
