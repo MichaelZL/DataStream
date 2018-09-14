@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name		= 'DataStream'
-s.version	= '0.0.1'
+s.version	= '0.0.2'
 s.summary	= 'An DataHandle view on iOS'
 s.homepage	= 'https://github.com/MichaelZL/DataStream'
 s.license	= { :type => 'MIT' }
